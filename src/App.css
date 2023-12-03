@@ -1,0 +1,20 @@
+
+
+input{
+    width: 100%;
+}
+
+.itemsContainer{
+    text-align: left;
+}
+
+.kg-row{
+    /* specified: 10px for the top and bottom margins, and
+     5px for the right and left margins. */
+    margin: 10px 5px;
+}
+
+.kg-button{
+    min-width: 180px;
+
+}
