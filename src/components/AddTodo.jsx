@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unknown-property */
 
 import { useState } from "react";
+import { IoAddCircle } from "react-icons/io5";
 
 function AddTodo({ OnAddButtonClicked }) {
   //we need to declare two states for the two states
@@ -45,7 +46,7 @@ function AddTodo({ OnAddButtonClicked }) {
             type="button"
             className="btn btn-success kg-button"
             onClick={handleAddButtonClick}>
-            Add
+            <IoAddCircle />
           </button>
         </div>
       </div>

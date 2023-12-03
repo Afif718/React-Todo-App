@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unknown-property */
+import { RiDeleteBinFill } from "react-icons/ri";
 
 function TodoItem1({ todoName, todoDate, onDeleteClick }) {
   return (
@@ -12,7 +13,7 @@ function TodoItem1({ todoName, todoDate, onDeleteClick }) {
             type="button"
             className="btn btn-danger kg-button"
             onClick={() => onDeleteClick(todoName)}>
-            Delete
+            <RiDeleteBinFill />
           </button>
         </div>
       </div>
