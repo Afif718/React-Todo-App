@@ -4,8 +4,8 @@ import { useState } from "react";
 
 function AddTodo({ OnAddButtonClicked }) {
   //we need to declare two states for the two states
-  const [todoName, setTodoName] = useState();
-  const [dueDate, setDueDate] = useState();
+  const [todoName, setTodoName] = useState("");
+  const [dueDate, setDueDate] = useState("");
 
   const handleNameChange = (event) => {
     setTodoName(event.target.value);
